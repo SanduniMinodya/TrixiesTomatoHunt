@@ -11,7 +11,7 @@ import java.awt.image.BufferedImage;
  * @author Minodya De Alwis
  */
 public class GameEngine {
-     
+    
     String thePlayer = null;
 
 	/**
@@ -48,7 +48,7 @@ public class GameEngine {
 	 */
 	public boolean checkSolution( int i) {
 		if (i == current.getSolution()) {
-			score = score + 5;
+			score = score + 10;
 			return true;
 		} else {
 			return false;
